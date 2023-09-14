@@ -1,8 +1,8 @@
 <suite name="Suite">
   <test name="Test">
-  <parameter name="grid" value="no"/>
+  <parameter name="grid" value="yes"/>
   <parameter name="gridurl" value="http://localhost:4444"/>
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="chrome"/>
   <parameter name="appurl" value="https://demo.actitime.com"/>
   <parameter name="ito" value="9"/>
   <parameter name="eto" value="9"/>

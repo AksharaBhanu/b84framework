@@ -18,6 +18,11 @@ public class EnterTimeTrackPage
 		PageFactory.initElements(driver,this);
 	}
 	
+	public void clickLogoutLink()
+	{
+		logoutLink.click();
+	}
+	
 	public boolean verifyLogoutIsDisplayed(WebDriverWait wait)
 	{
 		try 
